@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tmt-header {
+  height: 0rpx !important;
+  padding: 0 !important;
+}
+.content {
+  padding: 50rpx 20rpx 5rpx 30rpx;
+  background-color: #f4f4f4;
+}
+.content .study {
+  display: flex;
+  height: 370rpx;
+  width: 660rpx;
+  flex-wrap: wrap;
+  border-radius: 20rpx;
+  padding-top: 30rpx;
+  padding-left: 30rpx;
+  background-color: white;
+}
+.content .study .head {
+  font-weight: 600;
+}
+.content .study .head uni-icons {
+  padding-left: 500rpx;
+}
+.content .study .studyItem {
+  display: block;
+  width: 168rpx;
+  height: 210rpx;
+  padding: 10rpx;
+  margin-right: 20rpx;
+  border-radius: 6%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  border: 5rpx solid black;
+}
+.statistic {
+  padding: 35rpx 35rpx 20rpx 35rpx;
+}
+.statistic .ovewview {
+  border-radius: 20rpx;
+  padding-top: 30rpx;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+  padding-bottom: 20rpx;
+}
+.statistic .ovewview .head {
+  font-weight: 600;
+  padding-left: 50rpx;
+}
+.statistic .ovewview .head uni-icons {
+  padding-left: 450rpx;
+}
+.statistic .ovewview .time {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30rpx;
+  padding-top: 0rpx;
+  border-radius: 20rpx;
+}
+.statistic .ovewview .time .timeItem {
+  display: block;
+  width: 200rpx;
+  padding-top: 20rpx;
+  margin-bottom: 10rpx;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  font-weight: 200;
+}
+.statistic .ovewview .time .timeItem .title {
+  padding: 0;
+}
+.statistic .ovewview .time .timeItem .title text {
+  padding-left: 5rpx;
+  font-size: 27rpx;
+}
+.statistic .ovewview .time .timeItem .minute {
+  padding-top: 35rpx;
+  text-align: center;
+}
+.statistic .ovewview .time .timeItem .minute .left {
+  font-size: 30rpx;
+}
+.statistic .ovewview .weekRank {
+  margin-left: 120rpx;
+}
+.statistic .ovewview .allTime {
+  margin-left: 120rpx;
+}
+.statistic .calendar {
+  margin-top: 40rpx;
+  border-radius: 5%;
+}
+.statistic .calendar .head {
+  font-weight: 600;
+  padding-top: 30rpx;
+  padding-left: 60rpx;
+  padding-bottom: 20rpx;
+  border-radius: 5%;
+}
+.statistic .calendar .head .t {
+  font-size: 35rpx;
+  padding-right: 350rpx;
+  border-radius: 20%;
+}
+.statistic .calendar .head text {
+  font-weight: 500;
+  font-size: 25rpx;
+}
+.statistic .calendar .head uni-icons {
+  padding-left: 0rpx;
+}
+.statistic .calendar .cal {
+  background-color: pink;
+  margin-bottom: 10rpx;
+}
+.statistic .calendar .cal tmt-calendar {
+  border-radius: 20%;
+}
+

@@ -1,0 +1,38 @@
+$my-theme: #c00000;
+$mybcolor: #f8f8f8;
+$mybcolor1: #fff;
+$mytcolor: #333; // 主题色
+
+@mixin theme1($bcolor, $bcolor1, $bcolor2,  $tcolor) {
+	$mybcolor: $bcolor !global;
+	$mybcolor1: $bcolor1 !global;
+	$mybcolor2: $bcolor2 !global;
+	$mytcolor: $tcolor !global;
+	page {
+		background-color: $bcolor;
+	}
+	uni-page-wrapper{
+		background-color: $bcolor !important;
+	}
+	._myTheme, .search._div, .v-tabs__container,.sort._div, .content{ // 要适配暗夜模式的盒子加上这个类名 
+		background-color: $bcolor !important;
+		color: $tcolor !important;
+	}._myTheme1,.tag, .search input, .study, .container, .dayText{ // 要适配暗夜模式的盒子加上这个类名
+		background-color: $bcolor1 !important;
+		color: $tcolor !important;
+	}
+  // 后面可以你写类名，下面两个函数传参进来设置不同模式颜色的class
+  ._myTheme2 {
+    background-color: $bcolor2 !important;
+    color: $tcolor !important;
+  }
+}
+
+
+@media (prefers-color-scheme: light) { // 浅色
+	@include theme1(#f8f8f8, #fff, #ededed , #333); // 传参
+	
+} 
+@media (prefers-color-scheme: dark) { // 深色
+	@include theme1(#000, #292929, #343434, #fff);
+} 

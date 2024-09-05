@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/blog/blog",
+    "pages/user/user",
+    "pages/study/study",
+    "pages/calendar/calendar",
+    "pages/login/login",
+    "pages/login/register/register",
+    "pages/login/Password/Password",
+    "pages/study/attendance/attendance",
+    "pages/user/revise/revise",
+    "pages/study/note/note",
+    "pages/user/check/check",
+    "pages/user/Task/Task",
+    "pages/user/collection/collection",
+    "pages/user/news/news",
+    "pages/study/statistic/statistic",
+    "pages/blog/search/search",
+    "pages/user/myblog/myblog",
+    "pages/user/myblog/write/write",
+    "pages/blog/details/details",
+    "pages/user/news/chatDetails/chatDetails",
+    "pages/blog/search/searchDetails/searchDetails",
+    "pages/login/face/face",
+    "pages/login/faceReg/faceReg",
+    "pages/login/faceLogin/faceLogin",
+    "pages/user/set/set",
+    "pages/login/faceMod/faceMod"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "@navTxtStyle",
+    "navigationBarTitleText": "网络云实验室",
+    "navigationBarBackgroundColor": "@navBgColor",
+    "backgroundColor": "@BgColor"
+  },
+  "tabBar": {
+    "backgroundColor": "@navBgColor",
+    "color": "@navBgColor",
+    "selectedColor": "#C00000",
+    "borderStyle": "@navTxtStyle",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "iconPath": "static/icon/time.png",
+        "selectedIconPath": "static/icon/time.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "iconPath": "static/icon/write.png",
+        "selectedIconPath": "static/icon/write.png"
+      }
+    ]
+  },
+  "themeLocation": "theme.json",
+  "darkmode": true,
+  "usingComponents": {}
+}

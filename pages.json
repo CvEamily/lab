@@ -1,0 +1,257 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "网络云实验室"
+			}
+		}
+    ,{
+      "path" : "pages/blog/blog",
+      "style" :                                                                                    
+      {
+          "navigationBarTitleText": "BLOG",
+          "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/user/user",
+      "style" :                                                                                    
+      {
+          "navigationBarTitleText": "USER",
+          "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/study/study",
+      "style" :                                                                                    
+      {
+          "navigationBarTitleText": "STUDY",
+          "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/calendar/calendar",
+      "style" :                                                                                    
+      {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/login/login",
+      "style" :                                                                                    
+      {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/login/register/register",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/login/Password/Password",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+        "path" : "pages/study/attendance/attendance",
+        "style" :                                                                                    
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/user/revise/revise",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/study/note/note",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "NOTE",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/user/check/check",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/user/Task/Task",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "TASK",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/user/collection/collection",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/user/news/news",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "News",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/study/statistic/statistic",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "TIME",
+        "enablePullDownRefresh": false
+      }
+    }
+    ,{
+      "path" : "pages/blog/search/search",
+      "style" :                                                                                    
+      {
+        "navigationBarTitleText": "SEARCH",
+        "enablePullDownRefresh": false
+      }
+    }
+      ,{
+          "path" : "pages/user/myblog/myblog",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "MYBLOG",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/user/myblog/write/write",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "WRITE",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/blog/details/details",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/user/news/chatDetails/chatDetails",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/blog/search/searchDetails/searchDetails",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/login/face/face",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/login/faceReg/faceReg",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/login/faceLogin/faceLogin",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/user/set/set",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+          
+      }
+      ,{
+          "path" : "pages/login/faceMod/faceMod",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "@navTxtStyle",
+		"navigationBarTitleText": "网络云实验室",
+		"navigationBarBackgroundColor": "@navBgColor",
+		"backgroundColor": "@BgColor"
+	},
+	// "uniIdRouter": {},
+  "tabBar": {
+    "backgroundColor": "@navBgColor",
+    "color": "@navBgColor",
+    "selectedColor": "#C00000",
+    "borderStyle": "@navTxtStyle",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home.png"
+      },
+      {
+        "pagePath":"pages/study/study",
+        "iconPath": "static/icon/time.png",
+        "selectedIconPath": "static/icon/time.png"
+      },
+      {
+        "pagePath":"pages/blog/blog",
+        "iconPath": "static/icon/write.png",
+        "selectedIconPath": "static/icon/write.png"
+      }
+    ]
+  }
+}

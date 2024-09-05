@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "STUDY",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "tmt-calendar": "/uni_modules/tmt-calendar/components/tmt-calendar/tmt-calendar"
+  }
+}

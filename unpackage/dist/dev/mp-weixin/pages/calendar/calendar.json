@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tmt-calendar": "/uni_modules/tmt-calendar/components/tmt-calendar/tmt-calendar"
+  }
+}

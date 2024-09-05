@@ -1,0 +1,1 @@
+<view class="bg"><block wx:for="{{note_info}}" wx:for-item="item" wx:for-index="i" wx:key="i"><view class="task _div"><view class="right _div"><view class="headline _div">{{note_info[i].content}}</view><view class="body _div">{{note_info[i].sum_time+"minutes"}}</view></view></view></block></view>

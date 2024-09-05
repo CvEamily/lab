@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['gotoFace',['$event']]]]]}}" bindtap="__e">人脸识别注册</button><button data-event-opts="{{[['tap',[['gotoFaceMod',['$event']]]]]}}" bindtap="__e">人脸识别修改</button></view>

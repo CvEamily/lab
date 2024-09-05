@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1",
+    "vant-weapp": "^0.5.29",
+    "wux-weapp": "^3.8.9"
+  },
+  "name": "lab",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:zzmm0623/lab-applet.gi"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
